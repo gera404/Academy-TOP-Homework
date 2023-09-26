@@ -1,0 +1,31 @@
+.block1{
+    
+    width: 500px;
+    background-color: grey;
+    margin: 10px;
+    padding: 10px;
+}
+.block2{
+    
+    background-color: #ff7d7d;
+    padding: 10px;
+}
+.block2 ol{
+    
+    margin-left: 40px;
+    color: white;
+    background-color: #f54141;
+    
+}
+.block2 ol li{
+    text-indent: 10px;
+    margin-left: 0px;
+    width: 100px;    
+}
+p{
+    margin: 0;
+    margin-left: 160px;
+}
+span{
+    background-color: #c70000;
+}

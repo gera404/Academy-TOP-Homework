@@ -1,0 +1,15 @@
+.block{
+    width: 1150px;
+    margin: 100px;
+    padding: 15px;
+    background-color: azure
+}
+.block dl dt{
+    font-style: italic;
+}
+span{
+    color: grey;
+}
+p{
+    margin-left: 500px;
+}
