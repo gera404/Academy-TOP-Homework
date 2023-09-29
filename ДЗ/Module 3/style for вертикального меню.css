@@ -1,0 +1,25 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+aside{ 
+    width: 150px;
+    height: 250px;
+    background-color: darkgrey;
+}
+nav {
+    display: table;
+    width: inherit;
+    height: 50px;
+}
+img {
+    float: left;
+    height: 50px;
+    width: 50px;
+}
+p {
+    margin-top: 16px;
+}
+nav:hover{
+    background-color: grey;
+}

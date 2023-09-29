@@ -1,0 +1,75 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    padding: 5px;
+    box-sizing: border-box;
+}
+header{
+    margin-top: 5px;
+    margin-bottom: 5px;
+    background-color: #FF8C00;
+}
+menu{
+    margin-bottom: 5px;
+    background-color: #FF4500;   
+}
+main{
+    padding-left: 5px;
+    padding-right: 5px;
+    float: left;
+    width: 70%;
+}
+.class2{
+    background-color: #FFA500;
+    min-height: 500px;
+    padding: 40px;
+}
+aside{
+    background-color: #FFA500;
+    
+}
+.class1{
+    min-height: 500px;
+    float: left;
+    width: 15%;
+    
+}
+.aside1{
+    margin-bottom: 5px;
+    min-height: 250px;  
+}
+.aside2{  
+    min-height: 245px;    
+}
+.aside3{  
+
+    min-height: 500px;
+    float: left;
+    width: 15%;   
+}
+.section{
+    margin-top: 20px;
+    padding: 40px;
+    min-height: 175px;
+    background-color: #FF7F50;
+}
+footer{
+    margin-top: 5px;
+    background-color: #FF4500; 
+}
+.clearfix:after {
+  visibility: hidden;
+  display: block;
+  font-size: 0;
+  content: " ";
+  clear: both;
+  height: 0;
+}
+.clearfix { display: inline-block; }
+/* start commented backslash hack \*/
+* html .clearfix { height: 1%; }
+.clearfix { display: block; }
+/* close commented backslash hack */

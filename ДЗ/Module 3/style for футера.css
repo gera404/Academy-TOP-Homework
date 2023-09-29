@@ -1,0 +1,64 @@
+*{
+    margin: 0;
+}
+main{
+    min-height: 650px;
+}
+footer{
+    min-height: 150px;
+    background-color: darkgrey;
+}
+section{
+    display: flex;
+    width: 100%;
+}
+.class{
+    min-width: 33.33%;
+    padding: 10px; 
+}
+.class2{
+    display: flex;
+    padding: 20px;
+}
+.fb{ 
+    display: block;
+    margin-right: 10px;
+    width: 64;
+    height: 64;
+    background-image: url(icon/fb_gray.png);
+    background-repeat: no-repeat;
+}
+.fb:hover{
+    background-image: url(icon/fb.png);
+}
+.insta{ 
+    display: block;
+    margin-right: 10px;
+    width: 64;
+    height: 64;
+    background-image: url(icon/insta_gray.png);
+    background-repeat: no-repeat;
+}
+.insta:hover{
+    background-image: url(icon/insta.png);
+}
+.youtube{ 
+    display: block;
+    margin-right: 10px;
+    width: 64;
+    height: 64;
+    background-image: url(icon/youtube_gray.png);
+    background-repeat: no-repeat;
+}
+.youtube:hover{
+    background-image: url(icon/youtube.png);
+}
+p{
+    text-align: center;
+    margin: 5px;
+    color: white;
+}
+p:hover{
+    text-decoration-line: underline;
+    cursor: pointer;
+}
