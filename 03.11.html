@@ -1,0 +1,55 @@
+<!Doctype>
+<html>
+    <head>
+        <style>
+            *{
+                margin: 10px
+            }
+            .block{
+                
+                display: flex
+            }
+            #d1{
+                
+                background-color: greenyellow;
+                width: 100px;
+                height: 100px;
+            }
+            #d2{
+                
+                background-color: yellow;
+                width: 100px;
+                height: 100px;
+            }
+            #d3{
+                
+                background-color: red;
+                width: 100px;
+                height: 100px;
+            }
+            #d4{
+                
+                background-color: grey;
+                width: 100px;
+                height: 100px;
+                margin-left: 150px;
+            }
+            #d5{
+                
+                width: 100%;
+                height: 100%;
+            }
+        </style>
+    </head>
+    <body>
+       <div class="block">
+       <div onmousemove="colorCh1(event)" id="d1"></div>
+       <div onmousemove="colorCh2(event)" id="d2"></div>
+       <div onmousemove="colorCh3(event)" id="d3"></div>
+       </div>
+       <div id="d4"></div>
+       <button onclick="button1()">Вперед</button>
+       <button onclick="button2()">Закрыть</button>
+        <script src="script.js"></script>
+    </body>
+</html>
